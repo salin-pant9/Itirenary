@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.circle {
+  border: 2px solid blue;
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  margin-right: 10px;
+}
+.header > p {
+  font-size: 14px;
+  color: #687885;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  margin-top: -1px;
+}
+.line {
+  border: 1.5px solid blue;
+  width: 3px;
+  height: 200px;
+  margin-left: 5px;
+  background-color: blue;
+}
+.box {
+  height: 200px;
+  background-color: white;
+  width: 80%;
+  margin-left: 12px;
+}
+.content {
+  padding: 8px 12px;
+  text-align: left;
+}
+.content > h3 {
+  font-size: 16px;
+  padding: 12px;
+}
+.hline {
+  height: 2px;
+  background-color: #d2dde4;
+}
+.locations {
+  display: flex;
+}
+.location {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  padding: 5px;
+  background-color: #d2dde4;
+  height: 30px;
+  width: 130px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 12px;
+}
+#icon {
+  font-size: 20px;
+  color: #687885;
+  margin-right: 7px;
+}
+.location > p {
+  font-size: 12px;
+  color: #687885;
+  font-weight: 400;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.texts > p {
+  font-size: 14px;
+
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.texts > p > span {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}

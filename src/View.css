@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.view {
+  height: 100vh;
+  width: 700px;
+  background-color: #f8f9fa;
+  text-align: left;
+  padding: 12px;
+}
+.view > img {
+  height: 150px;
+  width: 81%;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+.name > h2 {
+  font-size: 20px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 19%;
+}
+.share {
+  color: rgba(55, 79, 199, 1);
+  padding: 8px 12px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: rgba(55, 79, 199, 0.1);
+}
+.share > p {
+  margin-left: 5px;
+}
+.print {
+  padding: 8px 12px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: rgba(255, 214, 0, 0.28);
+  color: rgba(200, 123, 55, 1);
+}
+.print > p {
+  margin-left: 5px;
+}
+.notes {
+  margin-top: 20px;
+  padding: 12px;
+}
